@@ -1,82 +1,58 @@
+# 🛡️ Caesar Cipher - Secrets of 58 BC
+
+A modern Java Swing-based GUI application that encrypts and decrypts text using the **Caesar Cipher**, one of the oldest and simplest forms of encryption used by Julius Caesar himself. Built with Java and a clean GUI, this project helps visualize classic cryptography in action!
 
 ---
 
-### 🌐 HTML View (For GitHub Pages or personal site)
+## ✨ Features
 
-Here’s an HTML version of the same README content for use in a webpage or live preview:
+- 🔐 Encrypt or decrypt any message using a Caesar shift
+- 🖥️ User-friendly GUI built with Java Swing
+- 🎛️ Custom shift input for full control
+- ⚡ Real-time response with encrypted/decrypted text
+- 🧠 Great for learning how classic ciphers work
+- 📋 Scrollable output for long text entries
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Caesar Cipher - Secrets of 58 BC</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 2rem; line-height: 1.6; background-color: #fdfdfd; color: #333; }
-    h1, h2 { color: #444; }
-    code { background: #f2f2f2; padding: 2px 6px; border-radius: 4px; }
-    pre { background: #f2f2f2; padding: 1rem; border-radius: 6px; overflow-x: auto; }
-    img { max-width: 100%; }
-  </style>
-</head>
-<body>
+---
 
-<h1>🛡️ Caesar Cipher - Secrets of 58 BC</h1>
+## 🧩 How It Works
 
-<p>A modern Java Swing-based GUI application to encrypt and decrypt text using the <strong>Caesar Cipher</strong> technique. Enter your secret message and shift value to encode or decode messages just like the Romans did! 🏛️</p>
+The **Caesar Cipher** shifts each letter in your message by a number of positions in the alphabet.
 
-<h2>✨ Features</h2>
-<ul>
-  <li>🔐 Encrypt and decrypt messages using Caesar Cipher logic</li>
-  <li>🖥️ Clean GUI built with Java Swing</li>
-  <li>✏️ User-defined shift value</li>
-  <li>📜 Scrollable output for longer text</li>
-  <li>⚡ Instant result on button click</li>
-  <li>🧠 Educational for learning basic cryptography</li>
-</ul>
+### Example:
+If you enter `HELLO` with a shift of `3`, the output will be `KHOOR`.
 
-<h2>📸 GUI Preview</h2>
-<img src="cipher_img.png" alt="Caesar Cipher GUI Screenshot" />
+- `H` → `K`
+- `E` → `H`
+- `L` → `O`
+- `L` → `O`
+- `O` → `R`
 
-<h2>🚀 Getting Started</h2>
+💡 **Note:** Non-alphabet characters (spaces, punctuation, etc.) remain unchanged.
 
-<h3>📦 Prerequisites</h3>
-<ul>
-  <li>Java JDK 8 or higher</li>
-  <li>Any Java IDE (e.g., IntelliJ, Eclipse, NetBeans)</li>
-</ul>
+---
 
-<h3>🔧 Installation</h3>
-<pre><code>git clone https://github.com/Nimarjot1/Caesar_Cipher.git
-cd Caesar_Cipher</code></pre>
-<p>Open <code>cypher.java</code> in your IDE and run the program.</p>
+## 📸 GUI Preview
 
-<h2>🛠️ How It Works</h2>
-<p>The Caesar Cipher shifts each letter in the plaintext a fixed number of positions forward or backward in the alphabet.</p>
-<p>For example, with a shift of 3:</p>
-<ul>
-  <li>A → D</li>
-  <li>B → E</li>
-  <li>Z → C</li>
-</ul>
+> 📌 Add a screenshot named `cipher_img.png` in your project folder to display the image below correctly on GitHub.
 
-<h2>💡 Example</h2>
-<p><strong>Input:</strong> HELLO WORLD</p>
-<p><strong>Shift:</strong> 3</p>
-<p><strong>Encrypted:</strong> KHOOR ZRUOG</p>
-<p><strong>Decrypted:</strong> HELLO WORLD</p>
+<p align="center">
+  <img src="cipher_img.png" alt="Caesar Cipher GUI" width="600" />
+</p>
 
-<h2>📂 Project Structure</h2>
-<pre><code>Caesar_Cipher/
-├── cypher.java         # Java Swing GUI and Cipher logic
-└── README.md           # Project info</code></pre>
+---
 
-<h2>👤 Author</h2>
-<p><strong>Nimarjot Kaur</strong><br>
-📍 <a href="https://github.com/Nimarjot1">GitHub Profile</a></p>
+## 🚀 Getting Started
 
-<h2>📄 License</h2>
-<p>This project is open source and available under the <a href="LICENSE">MIT License</a>.</p>
+### ✅ Prerequisites
 
-</body>
-</html>
+- Java JDK 8 or later
+- Java IDE (IntelliJ, Eclipse, NetBeans, etc.)
+
+### 🛠️ Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Nimarjot1/Caesar_Cipher.git
+   cd Caesar_Cipher
