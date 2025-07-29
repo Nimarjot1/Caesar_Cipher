@@ -34,7 +34,6 @@ If you enter `HELLO` with a shift of `3`, the output will be `KHOOR`.
 
 ## 📸 GUI Preview
 
-> 📌 Add a screenshot named `cipher_img.png` in your project folder to display the image below correctly on GitHub.
 
 <p align="center">
   <img src="cipher_img.png" alt="Caesar Cipher GUI" width="600" />
